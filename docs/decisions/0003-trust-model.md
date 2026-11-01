@@ -1,0 +1,2 @@
+# 0003 Trust model
+Status: accepted. Five levels: sample, custom, imported, verified, payment. Rules: levels are never converted implicitly; user input can only produce `custom`; verified/payment require a documented mechanism that does not exist yet; a card-styled pass is never a payment instrument; deleting locally never implies revocation. The UI shows the level on every card and explains it on the detail screen.
